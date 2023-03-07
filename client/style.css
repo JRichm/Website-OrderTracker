@@ -1,0 +1,187 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #0d3562;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    margin-top: 15px;
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #cccccc;
+}
+
+form {
+    display: flex; 
+    flex-flow: column;
+    margin: 15px;
+    width: 300px;
+}
+
+
+h4 {
+    text-align: center;
+    margin-bottom: -15px;
+    margin-top: 15px;
+}
+
+.dropDown {
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #dddddd;
+    background-color: #cfcfcf;
+    color:black;
+    border-style: solid;
+    height: 35px;
+    margin-top: 5px;
+}
+
+#headerDiv {
+    display: flex;
+}
+
+#headerDiv h4 {
+    color:white;
+    margin: 15px;
+}
+
+#rightButton button {
+    margin: 15px;
+}
+
+.orderMenu {
+    background-color: white;
+    width: auto;
+    height: 700px;
+    margin-top: 5px;
+}
+
+#menuOptions {
+    background-color: #e7e9eb;
+    margin: 5px;
+}
+
+
+#menuBox {
+    display: flex;
+    height: auto;
+    margin: 15px;
+    justify-content: center;
+}
+
+#orderConfirmation {
+    background-color: #e7e9eb;
+    width: auto;
+    margin: 5px;
+}
+
+#orderInputForm {
+    display: flex;
+}
+
+#orderInputForm p {
+    margin-bottom: -3px;
+    color: black; 
+}
+
+#orderInputForm input {
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #dddddd;
+    background-color: #cfcfcf;
+    color:black;
+    border-style: solid;
+    height: 35px;
+    margin-top: 5px;
+}
+
+#deliveryMethod {
+    justify-content: space-around;
+}
+
+#orderNowButtons {
+    margin-top: 20px;
+}
+
+#backButton {
+    background-color: #ea394a;
+    color: white;
+}
+
+#orderNowButton:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonDiv button {
+    margin-top: -10px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.incorrectInput {
+    border-color: black !important; 
+    background-color: #ffc0c7 !important;
+}
+
+.ordersRow {
+    display: flex;
+    background-color: #262833;
+    width: auto;
+    height: 175px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+#emptyOrder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+}
+
+#emptyDetails {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#emptyOrder p {
+    margin: 5px;
+}
+
+#emptyOrderTime {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px;
+    margin-top: -25px;
+    box-shadow: 0px 0px 3px 3px #444444;
+}
+
+#emptyOrderDetails {
+    background-color: #dddddd;
+    border-radius: 10px;
+    margin: 5px;
+    height: 110px;
+    width: 150px;
+}
+
+
